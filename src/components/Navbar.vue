@@ -30,19 +30,19 @@ export default {
                     url : "#"
                 },
                 {
-                    name : "home",
+                    name : "about",
                     url : "#"
                 },
                 {
-                    name : "home",
+                    name : "services",
                     url : "#"
                 },
                 {
-                    name : "home",
+                    name : "pricing",
                     url : "#"
                 },
                 {
-                    name : "home",
+                    name : "blog",
                     url : "#"
                 },
 
@@ -59,9 +59,13 @@ export default {
 
     nav {
         padding: 1rem 0rem;
+
+        ul {
+            text-transform: uppercase;
+        }
         
         li {
-            margin: 1rem 2rem;
+            margin: 1rem;
 
             a {
                 color: #FFF;

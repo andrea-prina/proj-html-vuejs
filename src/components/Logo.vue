@@ -15,6 +15,7 @@ export default {
 
     .logo{
         color: white;
+        line-height: 3rem;
     }
 
     .colored-logo {

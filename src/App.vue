@@ -3,7 +3,8 @@
     <Header
     :contacts = "companyContacts"/>
     <Main/>
-    <Footer/>
+    <Footer
+    :contacts = "companyContacts"/>
   </div>
 </template>
 

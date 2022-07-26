@@ -1,6 +1,6 @@
 <template>
     <div class="logo">
-        <span class="colored-logo">NEX</span>GEN
+        <span class="colored-logo">N E X </span>G E N
     </div>
 </template>
 
@@ -16,6 +16,7 @@ export default {
     .logo{
         color: white;
         line-height: 3rem;
+        font-family: 'Fira Code', monospace;
     }
 
     .colored-logo {

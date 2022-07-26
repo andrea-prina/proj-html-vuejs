@@ -33,6 +33,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;600&display=swap');
 
   * {
     margin: 0;

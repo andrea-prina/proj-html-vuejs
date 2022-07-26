@@ -57,6 +57,7 @@ export default {
 
         h1 {
             font-size: 4rem;
+            font-family: 'Alfa Slab One', cursive;
         }
 
         p {

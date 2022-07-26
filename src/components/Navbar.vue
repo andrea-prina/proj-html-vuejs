@@ -1,6 +1,6 @@
 <template>
     <nav class="flex-between">
-        <Logo class="border"/>
+        <Logo/>
         <ul class="flex-between unstyled-list">
             <li v-for="(item, index) in navItems" :key="index">
                 <a :href="item.url">{{item.name}}</a>
@@ -59,21 +59,14 @@ export default {
 
     nav {
         padding: 1rem 0rem;
-        border: 1px solid green;
-
-
-        ul {
-            border: 1px solid yellow;
-        }
         
         li {
             margin: 1rem 2rem;
-            border: 1px solid red;
-        }
-    }
 
-    .border {
-        border: 1px solid blue;
+            a {
+                color: #FFF;
+            }
+        }
     }
 
 </style>

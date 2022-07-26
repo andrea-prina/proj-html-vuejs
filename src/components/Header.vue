@@ -6,7 +6,10 @@
             <div class="header-items">
                 <Navbar class="wrapper"/>
                 <div class="hero-text wrapper">
-                    HERO TEXT
+                    <h1>Lead ~ Customer</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit minima doloribus nulla enim architecto? Praesentium qui quaerat rem laborum mollitia beatae, fuga, sequi a nesciunt officiis minus commodi. Maiores, deserunt.</p>
+                    <button>PRESS ME</button>
+                    <button>PRESS ME</button>
                 </div>
             </div>
 
@@ -40,10 +43,25 @@ export default {
     .main-header {
         background-image: url("../assets/img/hero-image.png");
         background-size: cover;
+        background-position: center;
     }
 
     .header-items {
-        background-color: rgba(0,0,0,0.6);
+        background-color: rgba(0,0,0,0.75);
+    }
+
+    .hero-text {
+        padding: 10rem;
+        text-align: center;
+        color: #FFF;
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        p {
+            margin: 2rem 0rem;
+        }
     }
 
 

@@ -3,14 +3,9 @@
         <SocialBar
         :contacts = "contacts"/>
         <div class="main-header">
-            <img class="header-img" src="../assets/img/hero-image.png" alt="">
-
-            <div class="header-items wrapper">
-                <nav>
-                    NAVBAR
-                    <!-- Navbar -->
-                </nav>
-                <div class="hero-text">
+            <div class="header-items">
+                <Navbar class="wrapper"/>
+                <div class="hero-text wrapper">
                     HERO TEXT
                 </div>
             </div>
@@ -20,7 +15,8 @@
 </template>
 
 <script>
-import SocialBar from './SocialBar.vue'
+import SocialBar from './SocialBar.vue';
+import Navbar from './Navbar.vue';
 
 export default {
     name : 'Header',
@@ -31,6 +27,7 @@ export default {
 
     components : {
         SocialBar,
+        Navbar,
     }
 
 }
@@ -41,28 +38,14 @@ export default {
 @import '../assets/styles/variables.scss';
 
     .main-header {
-        height: 400px;
-        position: relative;
-    }
-
-    .header-img {
-        filter: brightness(0.5) saturate(75%);
-        object-fit: cover;
-        width: 100%;
+        background-image: url("../assets/img/hero-image.png");
+        background-size: cover;
     }
 
     .header-items {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
+        background-color: rgba(0,0,0,0.6);
     }
 
-    .hero-text {
-        text-align: center;
-        padding: 8rem;
-        border: 1px solid red;
-    }
 
 
 

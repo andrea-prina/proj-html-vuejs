@@ -24,7 +24,14 @@ export default {
 @import '../assets/styles/generals.scss';
 
     .list-component {
-        padding: 1.5rem;
+        padding: 2rem;
+        background-color: darkslateblue;
+        border-radius: 5px;
+        line-height: 1.5rem;
+
+        h3 {
+            margin-bottom: 1rem;
+        }
     }
 
     a {

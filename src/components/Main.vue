@@ -63,7 +63,7 @@ export default {
                     icon : "fa-brands fa-facebook",
                     title : "title",
                     paragraph : "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-                    style : "light",
+                    style : "dark",
                     button : {
                         text : "",
                         url : ""
@@ -73,7 +73,7 @@ export default {
                     icon : "fa-brands fa-facebook",
                     title : "title",
                     paragraph : "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-                    style : "dark",
+                    style : "light",
                     button : {
                         text : "",
                         url : ""

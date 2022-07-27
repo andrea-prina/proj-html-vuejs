@@ -13,9 +13,7 @@
             <!-- Pricing -->
         </section>
 
-        <section>
-            <!-- News -->
-        </section>
+        <NewsSection/>
 
         <section>
             <!-- Newsletter -->
@@ -32,12 +30,14 @@
 <script>
 import HighlightsSection from './HighlightsSection.vue'
 import ServicesSection from './ServicesSection.vue'
+import NewsSection from './NewsSection.vue'
 
 export default {
     name : 'Main',
     components : {
         HighlightsSection,
         ServicesSection,
+        NewsSection,
     },
 
 }

@@ -14,7 +14,7 @@ export default {
 
     props : {
         listTitle : String,
-        listLinks : Object,
+        listLinks : Array,
     }
 
 }

@@ -1,13 +1,7 @@
 <template>
     <main>
 
-        <section>
-            <!-- Key highlights -->
-            <div class="wrapper flex-between">
-                <FeatureCard v-for="(card, index) in highlightsCards" :key="index"
-                :cardInfo="card"/>
-            </div>
-        </section>
+        <HighlightsSection/>
 
         <section>
             <!-- The company -->
@@ -38,52 +32,16 @@
 </template>
 
 <script>
-import FeatureCard from '../../elements/FeatureCard.vue'
+import HighlightsSection from './HighlightsSection.vue'
 
 export default {
     name : 'Main',
     components : {
-        FeatureCard,
-    },
-
-    data : function(){
-        return{
-            highlightsCards : [
-                {
-                    icon : "fa-brands fa-facebook",
-                    title : "title",
-                    paragraph : "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-                    style : "light",
-                    button : {
-                        text : "PRESS ME",
-                        url : ""
-                    }
-                },
-                {
-                    icon : "fa-brands fa-facebook",
-                    title : "title",
-                    paragraph : "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-                    style : "dark",
-                    button : {
-                        text : "",
-                        url : ""
-                    }
-                },
-                {
-                    icon : "fa-brands fa-facebook",
-                    title : "title",
-                    paragraph : "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-                    style : "light",
-                    button : {
-                        text : "",
-                        url : ""
-                    }
-                },
-            ]
-        }
+        HighlightsSection,
     },
 
 }
+
 </script>
 
 <style lang="scss">

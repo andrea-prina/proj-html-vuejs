@@ -35,8 +35,13 @@
 
         </div>
 
-        <div class="copyrights-section">
-            <!-- Copyright -->
+        <div class="copyrights-section wrapper flex-between">
+            <p>
+                Enjoy the low price. We are tracking any intention of piracy.
+            </p>
+            <p>
+                © 2020 NEXGEN is Proudly Powered by <a class="webmaster-link" href="#">Codings</a>
+            </p>
         </div>
 
         <div>
@@ -177,6 +182,15 @@ export default {
         ul {
             line-height: 1.5rem;
         }
+    }
+
+    .copyright-section {
+        background-color: darkblue;
+        font-size: 0.9rem;
+    }
+
+    .webmaster-link {
+        color: red;
     }
 
 </style>

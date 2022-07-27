@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="list-component">
         <h3>{{listTitle}}</h3>
         <ul class="unstyled-list">
             <li v-for="(link, index) in listLinks" :key="index">
@@ -22,6 +22,10 @@ export default {
 
 <style lang="scss">
 @import '../assets/styles/generals.scss';
+
+    .list-component {
+        padding: 1.5rem;
+    }
 
     a {
         color: white;

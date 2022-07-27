@@ -41,6 +41,8 @@ export default {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    // TODO: Find font more similar to the one used in the reference picture
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
   a {

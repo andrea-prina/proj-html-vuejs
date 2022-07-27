@@ -1,3 +1,5 @@
+@import './variables.scss';
+
 .wrapper {
     width: 80%;
     max-width: 1000px;
@@ -15,4 +17,29 @@
 
 .unstyled-list {
     list-style: none;
+}
+
+.btn {
+    padding: .5rem 1rem;
+    margin: 0rem .5rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.btn-style1 {
+    background-color: #058283;
+    border: 1px solid #058283;
+    color: white;
+}
+
+.btn-style2 {
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #058283;
+    color: white;
+}
+
+.btn-style3 {
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #058283;
+    color: #058283;
 }

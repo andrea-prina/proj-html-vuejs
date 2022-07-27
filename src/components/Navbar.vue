@@ -6,7 +6,7 @@
                 <a :href="item.url">{{item.name}}</a>
             </li>
             <li>
-                <button>PRESS ME</button>
+                <a href="#"  class="btn btn-style1">GET IN TOUCH</a>
             </li>
         </ul>
     </nav>
@@ -59,6 +59,7 @@ export default {
 
     nav {
         padding: 1rem 0rem;
+        align-items: center;
 
         ul {
             text-transform: uppercase;

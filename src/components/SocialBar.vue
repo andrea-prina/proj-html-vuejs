@@ -27,7 +27,7 @@ export default {
 
             socials : [
                 {
-                    icon: "fa-brands fa-facebook",
+                    icon: "fa-brands fa-facebook-f",
                     url: "#"
                 },
                 {

@@ -59,8 +59,8 @@
 </template>
 
 <script>
-import Logo from "./Logo.vue";
-import ListComponent from "./ListComponent.vue";
+import Logo from "../../elements/Logo.vue";
+import ListComponent from "../../elements/ListComponent.vue";
 
 export default {
     name : 'Footer',
@@ -168,8 +168,8 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../assets/styles/generals.scss';
-@import '../assets/styles/variables.scss';
+@import '../../../assets/styles/generals.scss';
+@import '../../../assets/styles/variables.scss';
 
     footer {
         /* TODO: Change to correct colors */

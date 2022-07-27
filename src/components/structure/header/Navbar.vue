@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import Logo from './Logo.vue';
+import Logo from '../../elements/Logo.vue';
 
 export default {
 
@@ -54,8 +54,8 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../assets/styles/generals.scss';
-@import '../assets/styles/variables.scss';
+@import '../../../assets/styles/generals.scss';
+@import '../../../assets/styles/variables.scss';
 
     nav {
         padding: 1rem 0rem;

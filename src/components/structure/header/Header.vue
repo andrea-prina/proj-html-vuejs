@@ -37,11 +37,11 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../assets/styles/generals.scss';
-@import '../assets/styles/variables.scss';
+@import '../../../assets/styles/generals.scss';
+@import '../../../assets/styles/variables.scss';
 
     .main-header {
-        background-image: url("../assets/img/hero-image.png");
+        background-image: url("../../../assets/img/hero-image.png");
         background-size: cover;
         background-position: center;
     }

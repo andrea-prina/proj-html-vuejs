@@ -27,7 +27,7 @@ export default {
 
 .card {
 
-    border: 1px solid yellow;
+    border-radius: 10px;
 
     .card-icon, h3, p {
         margin-bottom: 1rem;
@@ -36,9 +36,16 @@ export default {
 
 .light-card {
 
+    background-color: white;
+
     .card-icon {
-        background-color: red;
+        background-color: rgba(114, 162, 163, 0.2);
+        color: #038483;
     } 
+
+    p {
+        color: darkgrey;
+    }
 }
 
 .dark-card {

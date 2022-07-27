@@ -20,18 +20,8 @@ export default {
         return{
             highlightsCards : [
                 {
-                    icon : "fa-brands fa-facebook",
-                    title : "title",
-                    paragraph : "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-                    style : "dark",
-                    button : {
-                        text : "PRESS ME",
-                        url : ""
-                    }
-                },
-                {
-                    icon : "fa-brands fa-facebook",
-                    title : "title",
+                    icon : "fa-regular fa-user",
+                    title : "Human Capital",
                     paragraph : "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
                     style : "light",
                     button : {
@@ -40,8 +30,18 @@ export default {
                     }
                 },
                 {
-                    icon : "fa-brands fa-facebook",
-                    title : "title",
+                    icon : "fa-solid fa-chart-pie",
+                    title : "Core Business",
+                    paragraph : "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                    style : "light",
+                    button : {
+                        text : "",
+                        url : ""
+                    }
+                },
+                {
+                    icon : "fa-solid fa-gauge-high",
+                    title : "Performance",
                     paragraph : "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
                     style : "light",
                     button : {
@@ -57,6 +57,12 @@ export default {
 
 </script>
 
-<style>
+<style lang="scss" scoped>
+@import '../../../assets/styles/generals.scss';
+@import '../../../assets/styles/variables.scss';
+
+    section {
+        background-color: #E3E7DF;
+    }
 
 </style>

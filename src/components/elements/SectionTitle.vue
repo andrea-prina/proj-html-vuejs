@@ -13,7 +13,7 @@
 
         <a v-if="titleData.button.text"
         :href="titleData.button.url"
-        class="btn" :class="{'btn-style1' : titleData.style === 'light', 'btn-style3' : titleData.style === 'dark'}">
+        class="btn" :class="{'btn-style1' : titleData.style === 'light', 'btn-style2' : titleData.style === 'dark'}">
         {{titleData.button.text}}
         </a>
 

@@ -32,6 +32,11 @@ export default {
     .card-icon, h3, p {
         margin-bottom: 1rem;
     }
+
+    a {
+        margin: 1rem 0;
+        display: inline-block;
+    }
 }
 
 .light-card {
@@ -50,10 +55,12 @@ export default {
 
 .dark-card {
 
-    background-color: black;
+    background-color: #19191F;
 
     .card-icon {
-        background-color: blue;
+        background-color: rgba(0,0,0,0);
+        color: #058283;
+        justify-content: flex-end;
     }
 
     h3 {

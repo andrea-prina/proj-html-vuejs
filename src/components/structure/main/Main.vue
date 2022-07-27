@@ -7,9 +7,7 @@
             <!-- The company -->
         </section>
 
-        <section>
-            <!-- Services -->
-        </section>
+        <ServicesSection/>
 
         <section>
             <!-- Pricing -->
@@ -33,11 +31,13 @@
 
 <script>
 import HighlightsSection from './HighlightsSection.vue'
+import ServicesSection from './ServicesSection.vue'
 
 export default {
     name : 'Main',
     components : {
         HighlightsSection,
+        ServicesSection,
     },
 
 }

@@ -35,13 +35,17 @@
 
         </div>
 
-        <div class="copyrights-section wrapper flex-between">
-            <p>
-                Enjoy the low price. We are tracking any intention of piracy.
-            </p>
-            <p>
-                © 2020 NEXGEN is Proudly Powered by <a class="webmaster-link" href="#">Codings</a>
-            </p>
+        <div class="copyrights-section">
+
+            <div class="wrapper flex-between">
+                <p>
+                    Enjoy the low price. We are tracking any intention of piracy.
+                </p>
+                <p>
+                    © 2020 NEXGEN is Proudly Powered by <a href="#">Codings</a>
+                </p>
+            </div>
+
         </div>
 
         <div>
@@ -184,13 +188,14 @@ export default {
         }
     }
 
-    .copyright-section {
+    .copyrights-section {
         background-color: darkblue;
         font-size: 0.9rem;
-    }
+        padding: 1rem;
 
-    .webmaster-link {
-        color: red;
+        a {
+            color: red;
+        }
     }
 
 </style>

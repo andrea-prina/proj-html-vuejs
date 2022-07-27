@@ -15,9 +15,7 @@
 
         <NewsSection/>
 
-        <section>
-            <!-- Newsletter -->
-        </section>
+        <NewsletterSection/>
 
         <section>
             <!-- Contact Us -->
@@ -31,6 +29,7 @@
 import HighlightsSection from './HighlightsSection.vue'
 import ServicesSection from './ServicesSection.vue'
 import NewsSection from './NewsSection.vue'
+import NewsletterSection from './NewsletterSection.vue'
 
 export default {
     name : 'Main',
@@ -38,6 +37,7 @@ export default {
         HighlightsSection,
         ServicesSection,
         NewsSection,
+        NewsletterSection,
     },
 
 }

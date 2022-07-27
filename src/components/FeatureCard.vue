@@ -1,15 +1,21 @@
 <template>
     <div class="card three-cols-card">
         <div class="card-icon centered-circle-icon big-icon">
-            <i class="fa-brands fa-facebook"></i>
+            <i :class="cardInfo.icon"></i>
         </div>
-        <h3>Title</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <h3>{{cardInfo.title}}</h3>
+        <p>{{cardInfo.paragraph}}</p>
+        <a v-if="cardInfo.button.text" class="btn btn-style1" href="">{{cardInfo.button.text}}</a>
     </div>
 </template>
 
 <script>
 export default {
+
+    name : "FeatureCard",
+    props : {
+        cardInfo : Object,
+    }
 
 }
 </script>

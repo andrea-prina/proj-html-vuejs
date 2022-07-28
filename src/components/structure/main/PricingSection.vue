@@ -70,7 +70,7 @@ export default {
                         ]
                     },
                     {
-                        mostPopular : false,
+                        mostPopular : true,
                         icon : "fa-solid fa-briefcase",
                         name : "Professional",
                         price : "890",

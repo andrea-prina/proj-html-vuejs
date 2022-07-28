@@ -1,5 +1,8 @@
 <template>
     <div class="price-card three-cols-card">
+        <div v-if="pricingPlan.mostPopular" class="most-label">
+            Most Popular
+        </div>
         <div class="price-info">
             <div class="icon">
                 <i :class="pricingPlan.icon"></i>
@@ -38,15 +41,30 @@ export default {
     .price-card {
         border-radius: 10px;
         background-color: $bgc2;
+        position: relative;
 
         i {
             color: $brandColor;
         }
     }
 
+    .most-label {
+        position: absolute;
+        top: 15px;
+        left: 0;
+        width: 60px;
+        background-color: $brandColor;
+        color: white;
+        border-radius: 0px 20px 20px 0px;
+        padding: 0.5rem;
+        font-size: 0.75rem;
+        line-height: 0.60rem;
+    }
+
 
     .price-info {
         text-align: center;
+        padding-top: 2rem;
 
         .icon {
             font-size: 2rem;

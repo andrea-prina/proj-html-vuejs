@@ -4,9 +4,21 @@
             <SectionTitle :titleData="sectionTitleInfo"/>
             <!-- TODO: Fixare visualizzazione -->
             <div class="cards flex-between flex-wrap">
-                <div v-for="(card, index) in newsCards" :key="index" class="three-cols-card img-card">
-                    <img src="../../../assets/img/news-2.jpg" :alt="card.altImgText">
-                    <h3>{{card.text}}</h3>
+                <div @mouseenter="showCardDetails(index)" @mouseleave="hideCardDetails(index)"
+                v-for="(card, index) in newsCards" :key="index" class="three-cols-card img-card">
+                    <img src="../../../assets/img/news-1.jpg" :alt="card.altImgText">
+                    <div  v-if="card.showDetails" class="news-info flex-between">
+                        <div class="author">
+                            <i class="fa-regular fa-user text-icon"></i>{{card.author}}
+                        </div>
+                        <div class="date">
+                            <i class="fa-solid fa-clock text-icon"></i>{{card.publishDate}}
+                        </div>
+                    </div>
+                    <div class="news-text">
+                        <h3>{{card.title}}</h3>
+                        <p v-if="card.showDetails">{{card.paragraph}}</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -40,25 +52,48 @@ export default {
 
                 newsCards : [
                     {
-                        imgSrc : "../../../assets/img/news-2.jpg",
+                        imgSrc : "../../../assets/img/news-1.jpg",
                         altImgText : "news-1",
-                        text : "Lorem ipsum, dolor sit amet consectetur",
+                        title : "Dolor sit amet",
+                        paragraph : "lorem ipsum dolor sit amet consectetur lorem ipsum dolor sit amet",
+                        author : "John Doe",
+                        publishDate : "2 Days ago",
                         url : "#",
+                        showDetails : false,
                     },
                     {
                         imgSrc : "../../../assets/img/news-2.jpg",
                         altImgText : "news-2",
-                        text : "Dolor sit amet",
+                        title : "Dolor sit amet",
+                        paragraph : "lorem ipsum dolor sit amet consectetur lorem ipsum dolor sit amet",
+                        author : "John Doe",
+                        publishDate : "2 Days ago",
                         url : "#",
+                        showDetails : false,
                     },
                     {
                         imgSrc : "../../../assets/img/news-3.jpg",
                         altImgText : "news-3",
-                        text : "Lorem ipsum, dolor sit amet consectetur",
+                        title : "Dolor sit amet",
+                        paragraph : "lorem ipsum dolor sit amet consectetur lorem ipsum dolor sit amet",
+                        author : "John Doe",
+                        publishDate : "2 Days ago",
                         url : "#",
+                        showDetails : false,
                     },
-                ]
+                ],
             }
+    },
+
+    methods : {
+
+        showCardDetails : function(index){
+            this.newsCards[index].showDetails = true;
+        },
+
+        hideCardDetails : function(index){
+            this.newsCards[index].showDetails = false;
+        }
     },
 
 }
@@ -87,14 +122,35 @@ export default {
             border-radius: 10px;
         }
 
-        h3 {
-            color: white;
-            position: absolute;
-            left: 0;
-            right: 0;
-            bottom: 2rem;
-            padding: 0rem 1rem;
+        &:hover {
+            img {
+                filter: blur(2px) brightness(0.6);
+                cursor: pointer;
+            }
         }
+
+    }
+
+    .news-text {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 2rem;
+        padding: 0rem 1rem;
+        color: $txtc1;
+
+        h3 {
+            margin-bottom: 1rem;
+        }
+    }
+
+    .news-info {
+        position: absolute;
+        left: 2px;
+        right: 2px;
+        top: 2px;
+        padding: 1rem;
+        color: $txtc1;
     }
 
 </style>

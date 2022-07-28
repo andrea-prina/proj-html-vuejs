@@ -45,6 +45,7 @@ export default {
         border-radius: 10px;
         background-color: $bgc2;
         position: relative;
+        padding: 2rem;
 
         &:hover {
             cursor: pointer;

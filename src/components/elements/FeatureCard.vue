@@ -30,6 +30,7 @@ export default {
 .card {
 
     border-radius: 10px;
+    padding: 2rem;
 
     .card-icon, h3, p {
         margin-bottom: 1rem;

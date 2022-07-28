@@ -189,13 +189,13 @@ export default {
 
     .footer-info {
 
-        p, ul, a {
+        p, a {
 
-            margin: 1.5rem 0rem;
+            margin: 1.2rem 0rem;
         }
 
         ul {
-            line-height: 1.5rem;
+            line-height: 1.6rem;
         }
     }
 

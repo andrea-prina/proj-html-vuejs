@@ -1,6 +1,8 @@
 <template>
     <section class="flex-between">
 
+        <DotsGraphic class="dots-graphic top-graphic"/>
+
         <div class="w-50 half-wrapper">
             <SectionTitle :titleData="sectionTitleInfo"/>
 
@@ -27,11 +29,15 @@
         <div class="w-50">
             <img src="../../../assets/img/about-3.jpg" alt="">
         </div>
+
+        <DotsGraphic class="dots-graphic bottom-graphic"/>
+
     </section>
 </template>
 
 <script>
 import SectionTitle from '../../elements/SectionTitle.vue'
+import DotsGraphic from '../../elements/DotsGraphic.vue'
 
 export default {
 
@@ -39,6 +45,7 @@ export default {
 
     components : {
         SectionTitle,
+        DotsGraphic,
     },
 
     data : function(){
@@ -68,7 +75,26 @@ export default {
     section {
         padding: 0;
         background-color: $bgc2;
+        position: relative;
     }
+
+        .dots-graphic {
+            position: absolute;
+
+            &.top-graphic {
+                top: 0;
+                left: 50%;
+                transform: translate(-50%, -70%);
+            }
+
+            &.bottom-graphic {
+                bottom: 0;
+                left: 50%;
+                transform: translate(-50%, 30%);
+            }
+
+        }
+
 
     .w-50 {
         width: 50%;
@@ -86,6 +112,7 @@ export default {
         margin: 6rem 0 6rem auto;
         padding-right: 2rem;
     }
+
 
     .mini-cards-portion {
         margin-top: 4rem;

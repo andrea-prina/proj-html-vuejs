@@ -37,6 +37,12 @@ export default {
         margin: 1rem 0;
         display: inline-block;
     }
+
+    &:hover {
+        transform: translate(0, -10px);
+        transition: all linear 0.1s;
+        cursor: pointer;
+    }
 }
 
 .light-card {

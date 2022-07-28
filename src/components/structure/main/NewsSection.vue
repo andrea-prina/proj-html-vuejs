@@ -121,11 +121,12 @@ export default {
             width: 100%;
             object-fit: cover;
             border-radius: 10px;
+            filter: brightness(0.6);
         }
 
         &:hover {
             img {
-                filter: blur(2px) brightness(0.6);
+                filter: blur(2px) brightness(0.4);
                 cursor: pointer;
             }
         }

@@ -4,8 +4,6 @@
             <SectionTitle :titleData="sectionTitleInfo"  class="center-title"/>
             <div class="pricing-plans flex-between">
                 <PriceCard v-for="(card, index) in pricingPlans" :key="index" :pricingPlan="card"/>
-                
-                
             </div>
         </div>
     </section>
@@ -145,6 +143,10 @@ export default {
         justify-content: center;
         text-align: center;
         padding: 0rem 10rem;
+    }
+
+    .pricing-plans{
+        margin-top: 3rem;
     }
 
 </style>

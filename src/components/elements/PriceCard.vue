@@ -43,6 +43,12 @@ export default {
         background-color: $bgc2;
         position: relative;
 
+        &:hover {
+            transform: scale(1.1);
+            transition: all linear 0.1s;
+            cursor: pointer;
+        }
+
         i {
             color: $brandColor;
         }

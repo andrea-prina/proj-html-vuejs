@@ -40,7 +40,7 @@ export default {
     
 
     .small-title {
-        color: #038483;
+        color: $brandColor;
         text-transform: uppercase;
         font-size: 0.7rem;
         font-weight: bolder;
@@ -58,21 +58,29 @@ export default {
 
     .light-title {
 
-        color: black;
+        color: $bgc3;
 
             .highlighted {
-                background-color: rgba(114, 162, 163, 0.2);
-                color: #038483;
+                background-color: $brandColorTransp;
+                color: $brandColor;
+            }
+
+            p {
+                color: $txtc2;
             }
     }
 
     .dark-title {
         
-        color: white;
+        color: $bgc2;
 
             .highlighted {
-                background-color: rgba(114, 162, 163, 0.2);
-                color: white;
+                background-color: $brandColorTransp;
+                color: $txtc1;
+            }
+
+            p {
+                color: $txtc2;
             }
     }
 

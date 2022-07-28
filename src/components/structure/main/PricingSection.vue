@@ -2,12 +2,18 @@
     <section>
         <div class="wrapper">
             <SectionTitle :titleData="sectionTitleInfo"  class="center-title"/>
+            <div class="pricing-plans flex-between">
+                <PriceCard v-for="(card, index) in pricingPlans" :key="index" :pricingPlan="card"/>
+                
+                
+            </div>
         </div>
     </section>
 </template>
 
 <script>
 import SectionTitle from '../../elements/SectionTitle.vue'
+import PriceCard from '../../elements/PriceCard.vue'
 
 export default {
 
@@ -15,6 +21,7 @@ export default {
 
     components : {
         SectionTitle,
+        PriceCard,
     },
 
     data : function(){
@@ -33,10 +40,97 @@ export default {
                 }
             },
 
-        }
+            pricingPlans : [
+                    {
+                        mostPopular : false,
+                        icon : "fa-solid fa-rocket",
+                        name : "Standard",
+                        price : "490",
+                        perks : [
+                            {
+                                description : "Standard Accounting",
+                                included : true
+                            },
+                            {
+                                description : "Platform Access",
+                                included : true
+                            },
+                            {
+                                description : "Business Orientation",
+                                included : false
+                            },
+                            {
+                                description : "Dedicated Consultant",
+                                included : false
+                            },
+                            {
+                                description : "Personal Assistance",
+                                included : false
+                            }
+                        ]
+                    },
+                    {
+                        mostPopular : false,
+                        icon : "fa-solid fa-briefcase",
+                        name : "Professional",
+                        price : "890",
+                        perks : [
+                            {
+                                description : "Standard Accounting",
+                                included : true
+                            },
+                            {
+                                description : "Platform Access",
+                                included : true
+                            },
+                            {
+                                description : "Business Orientation",
+                                included : true
+                            },
+                            {
+                                description : "Dedicated Consultant",
+                                included : false
+                            },
+                            {
+                                description : "Personal Assistance",
+                                included : false
+                            }
+                        ]
+                    },
+                    {
+                        mostPopular : false,
+                        icon : "fa-solid fa-gem",
+                        name : "Ultimate",
+                        price : "1.390",
+                        perks : [
+                            {
+                                description : "Standard Accounting",
+                                included : true
+                            },
+                            {
+                                description : "Platform Access",
+                                included : true
+                            },
+                            {
+                                description : "Business Orientation",
+                                included : false
+                            },
+                            {
+                                description : "Dedicated Consultant",
+                                included : false
+                            },
+                            {
+                                description : "Personal Assistance",
+                                included : false
+                            }
+                        ]
+                    },
+                ]
+            }
+
+        },
     }
 
-}
 </script>
 
 <style lang="scss" scoped>

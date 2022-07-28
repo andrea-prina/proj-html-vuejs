@@ -3,9 +3,7 @@
 
         <HighlightsSection/>
 
-        <section>
-            <!-- The company -->
-        </section>
+        <CompanySection/>
 
         <ServicesSection/>
 
@@ -30,6 +28,7 @@ import HighlightsSection from './HighlightsSection.vue'
 import ServicesSection from './ServicesSection.vue'
 import NewsSection from './NewsSection.vue'
 import NewsletterSection from './NewsletterSection.vue'
+import CompanySection from './CompanySection.vue'
 
 export default {
     name : 'Main',
@@ -38,6 +37,7 @@ export default {
         ServicesSection,
         NewsSection,
         NewsletterSection,
+        CompanySection,
     },
 
 }

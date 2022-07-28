@@ -77,6 +77,18 @@ export default {
         color: $txtc2;
     }
 
+    &:hover {
+        .card-icon, p {
+            color: $txtc1;
+        }
+        
+        .btn {
+            background-color: $brandColor;
+            border: 1px solid $brandColor;
+            color: $txtc1;
+        }
+    }
+
 }
 
 

@@ -71,6 +71,10 @@ export default {
 
             a {
                 color: #FFF;
+
+                &:hover {
+                    opacity: 0.7;
+                }
             }
         }
     }

@@ -56,7 +56,11 @@ export default {
         font-size: 0.9rem;
 
         &, a {
-            color: $darkbgSecondaryText;
+            color: $txtc4;
+        }
+
+        a:hover {
+            color: $txtc1;
         }
     }
 

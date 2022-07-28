@@ -94,7 +94,7 @@ export default {
 
     .right-section {
         width: 40%;
-        padding: 1rem;
+        padding: 2.5rem 1rem;
 
         p {
             color: $txtc2;

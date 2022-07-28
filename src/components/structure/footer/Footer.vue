@@ -174,7 +174,7 @@ export default {
     footer {
         /* TODO: Change to correct colors */
         background-color: $bgc3;
-        color: white;
+        color: $txtc2;
         position: relative;
     }
 
@@ -204,7 +204,7 @@ export default {
         padding: 1rem;
 
         a {
-            color: red;
+            color: $brandColor;
         }
     }
 

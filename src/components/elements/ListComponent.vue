@@ -31,11 +31,12 @@ export default {
 
         h3 {
             margin-bottom: 1rem;
+            color: $txtc1;
         }
     }
 
     a {
-        color: $txtc1;
+        color: $txtc2;
     }
 
 

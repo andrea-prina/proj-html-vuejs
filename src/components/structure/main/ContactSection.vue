@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section id="contact-section">
         <div class="wrapper flex-between">
 
             <div class="left-section">

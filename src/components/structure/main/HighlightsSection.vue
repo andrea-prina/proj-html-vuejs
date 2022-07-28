@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section id="highlights-section">
         <div class="wrapper flex-between">
             <FeatureCard v-for="(card, index) in highlightsCards" :key="index"
             :cardInfo="card"/>

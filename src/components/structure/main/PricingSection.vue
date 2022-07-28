@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section id="pricing-section">
         <div class="wrapper">
             <SectionTitle :titleData="sectionTitleInfo"  class="center-title"/>
             <div class="pricing-plans flex-between">

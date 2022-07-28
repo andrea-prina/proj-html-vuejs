@@ -8,7 +8,7 @@
                 <div class="hero-text wrapper">
                     <h1>Lead ~ Customer</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit minima doloribus nulla enim architecto? Praesentium qui quaerat rem laborum mollitia beatae, fuga, sequi a nesciunt officiis minus commodi. Maiores, deserunt.</p>
-                    <a href="#" class="btn btn-style1">GET IN TOUCH</a>
+                    <a href="#contact-section" class="btn btn-style1">GET IN TOUCH</a>
                     <a href="#" class="btn btn-style2">READ MORE</a>
                 </div>
             </div>

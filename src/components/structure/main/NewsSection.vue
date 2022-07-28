@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section id="news-section">
         <div class="wrapper">
             <SectionTitle :titleData="sectionTitleInfo"/>
             <!-- TODO: Fix problems with dynamic images visualization -->

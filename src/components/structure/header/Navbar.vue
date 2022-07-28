@@ -6,7 +6,7 @@
                 <a :href="item.url">{{item.name}}</a>
             </li>
             <li>
-                <a href="#"  class="btn btn-style1">GET IN TOUCH</a>
+                <a href="#contact-section"  class="btn btn-style1">GET IN TOUCH</a>
             </li>
         </ul>
     </nav>
@@ -31,19 +31,19 @@ export default {
                 },
                 {
                     name : "about",
-                    url : "#"
+                    url : "#highlights-section"
                 },
                 {
                     name : "services",
-                    url : "#"
+                    url : "#services-section"
                 },
                 {
                     name : "pricing",
-                    url : "#"
+                    url : "#pricing-section"
                 },
                 {
                     name : "blog",
-                    url : "#"
+                    url : "#news-section"
                 },
 
             ]

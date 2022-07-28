@@ -48,12 +48,7 @@
 
         </div>
 
-        <div>
-            <button @click="scrollToTop" class="go-top-icon centered-circle-icon big-icon">
-                <i class="fa-solid fa-arrow-up"></i>
-            </button>
-            <!-- Go to top arrow (position absolute bottom=0, right=0) -->
-        </div>
+
 
     </footer>
 </template>
@@ -207,18 +202,6 @@ export default {
 
         a {
             color: $brandColor;
-        }
-    }
-
-    .go-top-icon {
-        position: absolute;
-        bottom: 5px;
-        right: 5px;
-        opacity: 0.1;
-
-        &:hover {
-            cursor: pointer;
-            opacity: 0.7;
         }
     }
 

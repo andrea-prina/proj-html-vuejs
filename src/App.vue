@@ -6,6 +6,13 @@
     :contacts = "companyContacts"/>
     <Footer
     :contacts = "companyContacts"/>
+
+    <div>
+        <a href="#" class="go-top-icon centered-circle-icon big-icon">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+    </div>
+
   </div>
 </template>
 
@@ -37,6 +44,8 @@ export default {
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;600&display=swap');
+@import './assets/styles/variables.scss';
+@import './assets/styles/icons.scss';
 
   * {
     margin: 0;
@@ -49,6 +58,19 @@ export default {
 
   a {
     text-decoration: none;
+  }
+
+  .go-top-icon {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    background-color: $bgc3;
+    opacity: 0.2;
+
+    &:hover {
+        cursor: pointer;
+        opacity: 0.7;
+    }
   }
 
 </style>

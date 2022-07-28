@@ -45,9 +45,9 @@ export default {
         return{
             sectionTitleInfo : {
                 smallTitle : "About the network",
-                preHighlightTitle : "The",
-                highlightTitle : "Company",
-                postHighlightTitle : "",
+                preHighlightTitle : "",
+                highlightTitle : "The",
+                postHighlightTitle : "Company",
                 paragraph : "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem",
                 style : "light",
                 button : {
@@ -98,6 +98,14 @@ export default {
 
         h3 {
             margin-bottom: 1rem;
+        }
+
+        i {
+            color: $brandColor;
+        }
+
+        p {
+            color: $txtc2;
         }
     }
 

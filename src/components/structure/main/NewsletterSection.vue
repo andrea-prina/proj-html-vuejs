@@ -64,8 +64,9 @@ export default {
 
     input[type="text"]{
         width: 100%;
-        height: 2rem;
+        height: 2.5rem;
         margin-bottom: 1rem;
+        padding: 0.5rem;
         opacity: 0.6;
     }
 

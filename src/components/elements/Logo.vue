@@ -1,6 +1,6 @@
 <template>
     <div class="logo">
-        <span class="colored-logo">N E X</span> G E N
+        <span class="colored-logo">NEX</span>GEN
     </div>
 </template>
 
@@ -15,7 +15,9 @@ export default {
 
     .logo{
         color: white;
+        font-weight: bold;
         font-family: 'Fira Code', monospace;
+        letter-spacing: 0.5rem;
 
         span {
             display: inline-block;
@@ -24,7 +26,8 @@ export default {
 
     .colored-logo {
         background-color: $logoBgColor ;
-        padding: 0.5rem 0rem 0.5rem 1.5rem;
+        padding: 0.5rem 0rem 0.5rem 1.4rem;
+        margin-right: 0.2rem;
         border-radius: 20px 0px 0 20px;
         color: $logoMainColor;
     }

@@ -212,9 +212,11 @@ export default {
         position: absolute;
         bottom: 5px;
         right: 5px;
+        opacity: 0.1;
 
         &:hover {
             cursor: pointer;
+            opacity: 0.7;
         }
     }
 

@@ -8,11 +8,12 @@
                     <input type="text" placeholder="email">
                     <input type="phone" placeholder="Phone">
                     <select name="" id="">
+                        <option value="" disabled selected>More info</option>
                         <option value="">Option 1</option>
                         <option value="">Option 2</option>
                         <option value="">Option 3</option>
                     </select>
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <textarea name="" id="" cols="30" rows="5" placeholder="Message"></textarea>
                     <input type="submit" value="Submit" class="btn btn-style1">
                 </form>
             </div>
@@ -22,13 +23,13 @@
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum unde dolor accusamus quidem reiciendis, quasi inventore, placeat.</p>
                 <ul class="unstyled-list">
                     <li>
-                        <span class="centered-circle-icon big-icon"><i class="fa-solid fa-phone"></i></span>{{contacts.phone}}
+                        <span class="centered-circle-icon small-icon"><i class="fa-solid fa-phone"></i></span>{{contacts.phone}}
                     </li>
                     <li>
-                        <span class="centered-circle-icon big-icon"><i class="fa-solid fa-envelope"></i></span>{{contacts.mail}}
+                        <span class="centered-circle-icon small-icon"><i class="fa-solid fa-envelope"></i></span>{{contacts.mail}}
                     </li>
                     <li>
-                        <span class="centered-circle-icon big-icon"><i class="fa-solid fa-location-dot"></i></span> {{contacts.address}}
+                        <span class="centered-circle-icon small-icon"><i class="fa-solid fa-location-dot"></i></span> {{contacts.address}}
                     </li>
                 </ul>
                 <a href="#" class="btn btn-style3">VIEW MAP</a>
@@ -92,8 +93,16 @@ export default {
         width: 40%;
         padding: 1rem;
 
+        p {
+            color: $txtc2;
+        }
+
+        ul {
+            color: $brandColor;
+        }
+
         span {
-            background-color: red;
+            background-color: $brandColorTransp;
         }
 
         li {
@@ -124,13 +133,15 @@ export default {
 
         input[type="text"], input[type="phone"], select {
             width: calc((100% - 0.5rem * 2 * 2) / 2);
-            line-height: 2rem;
+            height: 2.5rem;
         }
 
         input[type="text"], input[type="phone"], select, textarea {
-                background-color: lightgrey;
+                background-color: $bgc5;
+                padding: 0.5rem;
                 border-radius: 2px;
                 border: 0;
+                color: grey;
         }
 
     }

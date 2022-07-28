@@ -34,18 +34,30 @@
     background-color: $brandColor;
     border: 1px solid $brandColor;
     color: $txtc1;
+
+    &:hover {
+        opacity: 0.9;
+    }
 }
 
 .btn-style2 {
     background-color: $bgtrans;
     border: 1px solid $brandColor;
     color: $txtc1;
+
+    &:hover {
+        background-color: $brandColorTransp;
+    }
 }
 
 .btn-style3 {
     background-color: $bgtrans;
     border: 1px solid $brandColor;
     color: $brandColor;
+
+    &:hover {
+        background-color: $brandColorTransp;
+    }
 }
 
 .three-cols-card {

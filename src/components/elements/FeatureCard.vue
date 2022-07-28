@@ -86,6 +86,10 @@ export default {
             background-color: $brandColor;
             border: 1px solid $brandColor;
             color: $txtc1;
+
+            &:hover {
+                opacity: 0.9;
+            }
         }
     }
 

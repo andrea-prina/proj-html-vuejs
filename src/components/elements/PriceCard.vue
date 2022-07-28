@@ -10,7 +10,10 @@
         <ul class="price-perks">
             <li v-for="(perk, index) in pricingPlan.perks" :key="index" class="flex-between">
                 <span>{{perk.description}}</span>
-                <span>{{perk.included}}</span>
+                <span>
+                    <i v-if="perk.included" class="fa-solid fa-check"></i>
+                    <i v-else class="fa-solid fa-xmark"></i>
+                    </span>
             </li>
         </ul>
     </div>

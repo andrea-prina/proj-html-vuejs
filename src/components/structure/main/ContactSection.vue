@@ -17,6 +17,21 @@
                 </form>
             </div>
             <div class="right-section">
+                <h3>Example .inc</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum unde dolor accusamus quidem reiciendis, quasi inventore, placeat.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum unde dolor accusamus quidem reiciendis, quasi inventore, placeat.</p>
+                <ul class="unstyled-list">
+                    <li>
+                        <span class="centered-circle-icon big-icon"><i class="fa-solid fa-phone"></i></span>{{contacts.phone}}
+                    </li>
+                    <li>
+                        <span class="centered-circle-icon big-icon"><i class="fa-solid fa-envelope"></i></span>{{contacts.mail}}
+                    </li>
+                    <li>
+                        <span class="centered-circle-icon big-icon"><i class="fa-solid fa-location-dot"></i></span> {{contacts.address}}
+                    </li>
+                </ul>
+                <a href="#" class="btn btn-style3">VIEW MAP</a>
             </div>
         </div>
     </section>
@@ -31,6 +46,10 @@ export default {
 
     components : {
         SectionTitle,
+    },
+
+    props : {
+        contacts : Object,
     },
 
     data : function(){
@@ -68,6 +87,27 @@ export default {
     .right-section {
         width: 40%;
         padding: 1rem;
+
+        span {
+            background-color: red;
+        }
+
+        li {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .btn {
+            display: inline-block;
+        }
+
+    }
+
+    .right-section > * {
+        margin-bottom: 1rem;
     }
 
     form {

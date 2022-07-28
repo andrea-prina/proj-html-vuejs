@@ -2,7 +2,8 @@
   <div id="app">
     <Header
     :contacts = "companyContacts"/>
-    <Main/>
+    <Main
+    :contacts = "companyContacts"/>
     <Footer
     :contacts = "companyContacts"/>
   </div>

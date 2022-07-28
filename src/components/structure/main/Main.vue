@@ -13,7 +13,8 @@
 
         <NewsletterSection/>
 
-        <ContactSection/>
+        <ContactSection
+        :contacts="contacts"/>
 
     </main>
 </template>
@@ -37,6 +38,10 @@ export default {
         CompanySection,
         PricingSection,
         ContactSection,
+    },
+
+    props : {
+        contacts : Object,
     },
 
 }

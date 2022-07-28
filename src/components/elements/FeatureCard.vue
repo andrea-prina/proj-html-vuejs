@@ -68,7 +68,7 @@ export default {
     }
 
     p {
-        color: $txtc1;
+        color: $txtc2;
     }
 
 }

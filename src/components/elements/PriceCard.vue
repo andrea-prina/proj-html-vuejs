@@ -37,6 +37,11 @@ export default {
 
     .price-card {
         border-radius: 10px;
+        background-color: $bgc2;
+
+        i {
+            color: $brandColor;
+        }
     }
 
 
@@ -45,6 +50,11 @@ export default {
 
         .icon {
             font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            color: $brandColor;
         }
 
         .price {
@@ -58,6 +68,8 @@ export default {
 
     .price-perks {
         line-height: 1.5rem;
+        color: $txtc2;
+        line-height: 2rem;
     }
 
 

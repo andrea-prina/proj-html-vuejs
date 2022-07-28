@@ -28,10 +28,10 @@ export default {
         return{
             sectionTitleInfo : {
                 
-                smallTitle : "Monthly plns",
-                preHighlightTitle : "Pricing",
-                highlightTitle : "Table",
-                postHighlightTitle : "",
+                smallTitle : "Monthly plans",
+                preHighlightTitle : "",
+                highlightTitle : "Pricing",
+                postHighlightTitle : "Table",
                 paragraph : "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet",
                 style : "light",
                 button : {

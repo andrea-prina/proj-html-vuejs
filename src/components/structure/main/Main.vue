@@ -13,10 +13,7 @@
 
         <NewsletterSection/>
 
-        <section>
-            <!-- Contact Us -->
-        </section>
-
+        <ContactSection/>
 
     </main>
 </template>
@@ -28,6 +25,7 @@ import NewsSection from './NewsSection.vue';
 import NewsletterSection from './NewsletterSection.vue';
 import CompanySection from './CompanySection.vue';
 import PricingSection from './PricingSection.vue';
+import ContactSection from './ContactSection.vue';
 
 export default {
     name : 'Main',
@@ -38,6 +36,7 @@ export default {
         NewsletterSection,
         CompanySection,
         PricingSection,
+        ContactSection,
     },
 
 }

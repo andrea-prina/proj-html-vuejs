@@ -25,7 +25,7 @@ export default {
 
     .list-component {
         padding: 2rem;
-        background-color: darkslateblue;
+        background-color: $darkCard;
         border-radius: 5px;
         line-height: 1.5rem;
 
@@ -35,7 +35,7 @@ export default {
     }
 
     a {
-        color: white;
+        color: $txtc1;
     }
 
 

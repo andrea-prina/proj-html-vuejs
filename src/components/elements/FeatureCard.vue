@@ -41,11 +41,11 @@ export default {
 
 .light-card {
 
-    background-color: white;
+    background-color: $bgc2;
 
     .card-icon {
-        background-color: rgba(114, 162, 163, 0.2);
-        color: #038483;
+        background-color: $brandColorTransp;
+        color: $brandColor;
     } 
 
     p {
@@ -55,20 +55,20 @@ export default {
 
 .dark-card {
 
-    background-color: #19191F;
+    background-color: $darkCard;
 
     .card-icon {
-        background-color: rgba(0,0,0,0);
-        color: #058283;
+        background-color: $bgtrans;
+        color: $brandColor;
         justify-content: flex-end;
     }
 
     h3 {
-        color: white;
+        color: $txtc1;
     }
 
     p {
-        color: white;
+        color: $txtc1;
     }
 
 }

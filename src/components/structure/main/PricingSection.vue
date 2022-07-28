@@ -44,6 +44,7 @@ export default {
                         icon : "fa-solid fa-rocket",
                         name : "Standard",
                         price : "490",
+                        url : "#",
                         perks : [
                             {
                                 description : "Standard Accounting",
@@ -72,6 +73,7 @@ export default {
                         icon : "fa-solid fa-briefcase",
                         name : "Professional",
                         price : "890",
+                        url : "#",
                         perks : [
                             {
                                 description : "Standard Accounting",
@@ -100,6 +102,7 @@ export default {
                         icon : "fa-solid fa-gem",
                         name : "Ultimate",
                         price : "1.390",
+                        url : "#",
                         perks : [
                             {
                                 description : "Standard Accounting",

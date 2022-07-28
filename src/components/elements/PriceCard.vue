@@ -1,7 +1,10 @@
 <template>
-    <div class="price-card three-cols-card">
+    <div class="price-card three-cols-card" :class="{'focused-plan' : pricingPlan.mostPopular}">
         <div v-if="pricingPlan.mostPopular" class="most-label">
             Most Popular
+        </div>
+        <div class="see-plan-icon">
+            <a :href="pricingPlan.url"><i class="fa-solid fa-arrow-right"></i></a>
         </div>
         <div class="price-info">
             <div class="icon">
@@ -44,14 +47,20 @@ export default {
         position: relative;
 
         &:hover {
-            transform: scale(1.1);
-            transition: all linear 0.1s;
             cursor: pointer;
+
+            .see-plan-icon {
+                display: block;
+            }
         }
 
         i {
             color: $brandColor;
         }
+    }
+
+    .focused-plan {
+        transform: scale(1.1);
     }
 
     .most-label {
@@ -65,6 +74,18 @@ export default {
         padding: 0.5rem;
         font-size: 0.75rem;
         line-height: 0.60rem;
+    }
+
+    .see-plan-icon {
+        position: absolute;
+        top: 15px;
+        right: 10px;
+        display: none;
+
+        a {
+            font-size: 1.5rem;
+            color: $brandColor;
+        }
     }
 
 

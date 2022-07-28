@@ -23,10 +23,10 @@ export default {
     }
 
     .colored-logo {
-        background-color: rgba(3, 132, 131, 0.3) ;
+        background-color: $logoBgColor ;
         padding: 0.5rem 0rem 0.5rem 1.5rem;
         border-radius: 20px 0px 0 20px;
-        color: $lightAccentColor;
+        color: $logoMainColor;
     }
 
 </style>

@@ -5,9 +5,11 @@
                 <SectionTitle :titleData="sectionTitleInfo"/>
             </div>
             <div class="w-40">
-                <input type="text" placeholder="Name">
-                <input type="text" placeholder="Email">
-                <button class="btn btn-style1">SUBSCRIBE</button>
+                <form action="">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Email">
+                    <input type="submit" value="SEND" class="btn btn-style1">
+                </form>
             </div>
         </div>
     </section>

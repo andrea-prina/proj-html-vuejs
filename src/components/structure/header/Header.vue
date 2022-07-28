@@ -62,14 +62,13 @@ export default {
 
         p {
             margin: 2rem 0rem;
+            color: $txtc2;
         }
 
         .btn {
             margin: 0 .5rem;
         }
     }
-
-
 
 
 </style>

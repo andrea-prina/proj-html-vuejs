@@ -80,14 +80,13 @@ export default {
         p {
             color: $brandColor;
         }
+    }
 
-        .price {
-            margin: 1rem 0rem;
-            display: inline-block;
-            font-size: 2rem;
-            font-weight: bold;
-        }
-
+    .price {
+        margin: 1rem 0rem;
+        display: inline-block;
+        font-size: 2rem;
+        font-weight: bold;
     }
 
     .price-perks {

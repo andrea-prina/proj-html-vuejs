@@ -37,6 +37,10 @@ export default {
 
     a {
         color: $txtc2;
+
+        &:hover {
+            color: $txtc1;
+        }
     }
 
 

@@ -1,11 +1,12 @@
 <template>
     <section>
         <div class="wrapper flex-between">
+
             <div class="left-section">
                 <SectionTitle :titleData="sectionTitleInfo"/>
                 <form action="" class="flex-between flex-wrap">
-                    <input type="text" placeholder="name">
-                    <input type="text" placeholder="email">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
                     <input type="phone" placeholder="Phone">
                     <select name="" id="">
                         <option value="" disabled selected>More info</option>
@@ -14,9 +15,10 @@
                         <option value="">Option 3</option>
                     </select>
                     <textarea name="" id="" cols="30" rows="5" placeholder="Message"></textarea>
-                    <input type="submit" value="Submit" class="btn btn-style1">
+                    <input type="submit" value="SEND" class="btn btn-style1">
                 </form>
             </div>
+
             <div class="right-section">
                 <h3>Example .inc</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum unde dolor accusamus quidem reiciendis, quasi inventore, placeat.</p>
@@ -34,6 +36,7 @@
                 </ul>
                 <a href="#" class="btn btn-style3">VIEW MAP</a>
             </div>
+
         </div>
     </section>
 </template>
@@ -131,12 +134,12 @@ export default {
             width: 100%;
         }
 
-        input[type="text"], input[type="phone"], select {
+        input[type="text"], input[type="phone"], input[type="email"], select {
             width: calc((100% - 0.5rem * 2 * 2) / 2);
             height: 2.5rem;
         }
 
-        input[type="text"], input[type="phone"], select, textarea {
+        input[type="text"], input[type="phone"], input[type="email"], select, textarea {
                 background-color: $bgc5;
                 padding: 0.5rem;
                 border-radius: 2px;

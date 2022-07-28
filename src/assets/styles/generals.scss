@@ -1,5 +1,6 @@
 @import './variables.scss';
 
+
 .wrapper {
     width: 80%;
     max-width: 1000px;
@@ -15,8 +16,10 @@
     flex-wrap: wrap;
 }
 
-.text-icon {
-    margin-right: 0.5rem;
+.three-cols-card {
+    margin: 1rem 0rem;
+    padding: 2rem;
+    width: calc((100% - 1rem * 2 * 3) / 3);
 }
 
 .unstyled-list {
@@ -24,10 +27,13 @@
 }
 
 
+
+
 .btn {
     padding: .5rem 1rem;
     border-radius: 5px;
     text-transform: uppercase;
+    display: inline-block;
 }
 
 .btn-style1 {
@@ -60,11 +66,7 @@
     }
 }
 
-.three-cols-card {
-    margin: 1rem 0rem;
-    padding: 2rem;
-    width: calc((100% - 1rem * 2 * 3) / 3);
-}
+
 
 .centered-circle-icon {
     display: flex;
@@ -85,4 +87,8 @@
     height: 30px;
     width: 30px;
     font-size: 1rem;
+}
+
+.text-icon {
+    margin-right: 0.5rem;
 }

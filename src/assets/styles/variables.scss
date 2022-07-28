@@ -4,7 +4,10 @@ $bgc2 : #FFF;
 $bgc3 : #1e2223;
 $bgc4 : #24333d;
 
+$bgtrans : rgba(0,0,0,0);
+
 // Text Colors
+$txtc1 : #FFF;
 // $lightbgMainText
 // $lightbgSecondaryText
 
@@ -13,4 +16,6 @@ $darkbgSecondaryText : #778a94;
 
 
 // Element Colors
+$brandColor : rgb(3, 132, 131);
+$brandColorTransp : rgba(3, 132, 131, 0.5);
 $lightAccentColor : #39C4C6;

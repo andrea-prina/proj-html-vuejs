@@ -30,21 +30,21 @@
 }
 
 .btn-style1 {
-    background-color: #058283;
-    border: 1px solid #058283;
-    color: white;
+    background-color: $brandColor;
+    border: 1px solid $brandColor;
+    color: $txtc1;
 }
 
 .btn-style2 {
-    background-color: rgba(0,0,0,0);
-    border: 1px solid #058283;
-    color: white;
+    background-color: $bgtrans;
+    border: 1px solid $brandColor;
+    color: $txtc1;
 }
 
 .btn-style3 {
-    background-color: rgba(0,0,0,0);
-    border: 1px solid #058283;
-    color: #058283;
+    background-color: $bgtrans;
+    border: 1px solid $brandColor;
+    color: $brandColor;
 }
 
 .three-cols-card {

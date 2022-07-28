@@ -82,6 +82,8 @@ export default {
 <style lang="scss" scoped>
 @import '../../../assets/styles/generals.scss';
 @import '../../../assets/styles/variables.scss';
+@import '../../../assets/styles/buttons.scss';
+@import '../../../assets/styles/icons.scss';
 
     section {
         background-color: $bgc2;

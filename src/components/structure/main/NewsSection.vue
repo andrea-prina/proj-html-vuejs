@@ -2,7 +2,7 @@
     <section>
         <div class="wrapper">
             <SectionTitle :titleData="sectionTitleInfo"/>
-            <!-- TODO: Fixare visualizzazione -->
+            <!-- TODO: Fix problems with dynamic images visualization -->
             <div class="cards flex-between flex-wrap">
                 <div @mouseenter="showCardDetails(index)" @mouseleave="hideCardDetails(index)"
                 v-for="(card, index) in newsCards" :key="index" class="three-cols-card img-card">
@@ -102,6 +102,7 @@ export default {
 <style lang="scss" scoped>
 @import '../../../assets/styles/generals.scss';
 @import '../../../assets/styles/variables.scss';
+@import '../../../assets/styles/icons.scss';
 
     section {
         background-color: $bgc2;

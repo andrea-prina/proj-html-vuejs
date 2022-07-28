@@ -17,7 +17,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../../assets/styles/generals.scss';
 @import '../../assets/styles/variables.scss';
 
     span {

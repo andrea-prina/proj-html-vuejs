@@ -39,6 +39,7 @@ export default {
 <style lang="scss" scoped>
 @import '../../../assets/styles/generals.scss';
 @import '../../../assets/styles/variables.scss';
+@import '../../../assets/styles/buttons.scss';
 
     .main-header {
         background-image: url("../../../assets/img/hero-image.png");

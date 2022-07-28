@@ -26,48 +26,6 @@
     list-style: none;
 }
 
-
-
-
-.btn {
-    padding: .5rem 1rem;
-    border-radius: 5px;
-    text-transform: uppercase;
-    display: inline-block;
-}
-
-.btn-style1 {
-    background-color: $brandColor;
-    border: 1px solid $brandColor;
-    color: $txtc1;
-
-    &:hover {
-        opacity: 0.9;
-    }
-}
-
-.btn-style2 {
-    background-color: $bgtrans;
-    border: 1px solid $brandColor;
-    color: $txtc1;
-
-    &:hover {
-        background-color: $brandColorTransp;
-    }
-}
-
-.btn-style3 {
-    background-color: $bgtrans;
-    border: 1px solid $brandColor;
-    color: $brandColor;
-
-    &:hover {
-        background-color: $brandColorTransp;
-    }
-}
-
-
-
 .centered-circle-icon {
     display: flex;
     justify-content: center;
@@ -75,20 +33,4 @@
     padding: 1rem;
     border: 0;
     border-radius: 50%;
-}
-
-.big-icon {
-    height: 40px;
-    width: 40px;
-    font-size: 1.5rem;
-}
-
-.small-icon {
-    height: 30px;
-    width: 30px;
-    font-size: 1rem;
-}
-
-.text-icon {
-    margin-right: 0.5rem;
 }

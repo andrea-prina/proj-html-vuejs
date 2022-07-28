@@ -170,6 +170,8 @@ export default {
 <style lang="scss">
 @import '../../../assets/styles/generals.scss';
 @import '../../../assets/styles/variables.scss';
+@import '../../../assets/styles/buttons.scss';
+@import '../../../assets/styles/icons.scss';
 
     footer {
         /* TODO: Change to correct colors */

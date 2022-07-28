@@ -56,6 +56,7 @@ export default {
 <style lang="scss" scoped>
 @import '../../../assets/styles/generals.scss';
 @import '../../../assets/styles/variables.scss';
+@import '../../../assets/styles/buttons.scss';
 
     nav {
         padding: 1rem 0rem;

@@ -22,6 +22,8 @@ export default {
 
 <style lang="scss">
 @import '../../assets/styles/generals.scss';
+@import '../../assets/styles/variables.scss';
+@import '../../assets/styles/icons.scss';
 
     .list-component {
         padding: 2rem;

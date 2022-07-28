@@ -71,6 +71,7 @@ export default {
 <style lang="scss" scoped>
 @import '../../../assets/styles/generals.scss';
 @import '../../../assets/styles/variables.scss';
+@import '../../../assets/styles/icons.scss';
 
     section {
         padding: 0;

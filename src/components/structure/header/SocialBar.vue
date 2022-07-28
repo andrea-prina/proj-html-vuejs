@@ -49,6 +49,7 @@ export default {
 
 @import '../../../assets/styles/generals.scss';
 @import '../../../assets/styles/variables.scss';
+@import '../../../assets/styles/icons.scss';
 
     #social-bar {
         background-color: $bgc4;

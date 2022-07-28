@@ -7,9 +7,7 @@
 
         <ServicesSection/>
 
-        <section>
-            <!-- Pricing -->
-        </section>
+        <PricingSection/>
 
         <NewsSection/>
 
@@ -24,11 +22,12 @@
 </template>
 
 <script>
-import HighlightsSection from './HighlightsSection.vue'
-import ServicesSection from './ServicesSection.vue'
-import NewsSection from './NewsSection.vue'
-import NewsletterSection from './NewsletterSection.vue'
-import CompanySection from './CompanySection.vue'
+import HighlightsSection from './HighlightsSection.vue';
+import ServicesSection from './ServicesSection.vue';
+import NewsSection from './NewsSection.vue';
+import NewsletterSection from './NewsletterSection.vue';
+import CompanySection from './CompanySection.vue';
+import PricingSection from './PricingSection.vue';
 
 export default {
     name : 'Main',
@@ -38,6 +37,7 @@ export default {
         NewsSection,
         NewsletterSection,
         CompanySection,
+        PricingSection,
     },
 
 }

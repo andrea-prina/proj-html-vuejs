@@ -62,7 +62,7 @@ export default {
 @import '../../../assets/styles/variables.scss';
 
     section {
-        background-color: #E3E7DF;
+        background-color: $bgc1;
     }
 
 </style>

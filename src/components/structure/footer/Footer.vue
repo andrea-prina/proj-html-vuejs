@@ -173,7 +173,7 @@ export default {
 
     footer {
         /* TODO: Change to correct colors */
-        background-color: black;
+        background-color: $bgc3;
         color: white;
         position: relative;
     }
@@ -200,7 +200,6 @@ export default {
     }
 
     .copyrights-section {
-        background-color: darkblue;
         font-size: 0.9rem;
         padding: 1rem;
 

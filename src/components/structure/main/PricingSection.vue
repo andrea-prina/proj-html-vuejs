@@ -137,6 +137,10 @@ export default {
 @import '../../../assets/styles/generals.scss';
 @import '../../../assets/styles/variables.scss';
 
+    section {
+            background-color: $bgc1;
+        }
+
     .center-title {
         justify-content: center;
         text-align: center;

@@ -111,7 +111,7 @@ export default {
 @import '../../../assets/styles/variables.scss';
 
     #services-section {
-        background-color: black;
+        background-color: $bgc3;
     }
 
     .cards {

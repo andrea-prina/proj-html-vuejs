@@ -67,6 +67,7 @@ export default {
 
     section {
         padding: 0;
+        background-color: $bgc2;
     }
 
     .w-50 {

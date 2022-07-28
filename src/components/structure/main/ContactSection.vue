@@ -79,6 +79,10 @@ export default {
 @import '../../../assets/styles/generals.scss';
 @import '../../../assets/styles/variables.scss';
 
+    section {
+        background-color: $bgc2;
+    }
+
     .left-section {
         width: 60%;
         padding: 2rem;

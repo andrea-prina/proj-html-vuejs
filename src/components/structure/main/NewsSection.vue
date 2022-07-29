@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section id="news-section">
         <div class="wrapper">
             <SectionTitle :titleData="sectionTitleInfo"/>
             <div class="cards flex-between flex-wrap">

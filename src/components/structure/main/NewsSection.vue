@@ -38,7 +38,7 @@ export default {
 
                 newsCards : [
                     {
-                        imgSrc : "../../../assets/img/news-1.jpg",
+                        imgSrc : "news-1.jpg",
                         altImgText : "news-1",
                         title : "Dolor sit amet",
                         paragraph : "lorem ipsum dolor sit amet consectetur lorem ipsum dolor sit amet",
@@ -47,7 +47,7 @@ export default {
                         url : "#",
                     },
                     {
-                        imgSrc : "../../../assets/img/news-2.jpg",
+                        imgSrc : "news-2.jpg",
                         altImgText : "news-2",
                         title : "Dolor sit amet",
                         paragraph : "lorem ipsum dolor sit amet consectetur lorem ipsum dolor sit amet",
@@ -56,7 +56,7 @@ export default {
                         url : "#",
                     },
                     {
-                        imgSrc : "../../../assets/img/news-3.jpg",
+                        imgSrc : "news-3.jpg",
                         altImgText : "news-3",
                         title : "Dolor sit amet",
                         paragraph : "lorem ipsum dolor sit amet consectetur lorem ipsum dolor sit amet",

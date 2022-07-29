@@ -1,6 +1,6 @@
 <template>
     <div class="three-cols-card img-card">
-        <img src="../../assets/img/news-1.jpg" :alt="cardInfo.altImgText">
+        <img :src="require(`../../assets/img/${cardInfo.imgSrc}`)" :alt="cardInfo.altImgText">
         <div class="news-info flex-between">
             <div class="author">
                 <i class="fa-regular fa-user text-icon"></i>{{cardInfo.author}}
